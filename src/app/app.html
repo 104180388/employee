@@ -29,7 +29,7 @@
 <br />
 
 @if (editingId() !== null){
-<form (ngSubmit)="saveEdit()" >
+<form (ngSubmit)="saveEdit()">
   <h3>Edit Employee</h3>
   <div>
     <label for="name">Name:</label>
@@ -48,7 +48,17 @@
 
   <div>
     <label for="role">Role:</label>
-    <input type="text" id="role" name="role" [(ngModel)]="formData().role" required />
+    <input list="role" name="role" [(ngModel)]="formData().role" required>
+    <datalist id="role">
+      <option value="Nuclear Power Engineer"></option>
+      <option value="Project Manager"></option>
+      <option value="Office Assistant"></option>
+      <option value="Clinical Specialist"></option>
+      <option value="VP Marketing"></option>
+      <option value="Media Manager"></option>
+      <option value="Executive Secretary"></option>
+      <option value="Environmental Specialist"></option>
+    </datalist>
   </div>
 
   <button type="submit">Save Changes</button>
@@ -76,7 +86,18 @@
 
   <div>
     <label for="role">Role:</label>
-    <input type="text" id="role" name="role" [(ngModel)]="formData().role" required />
+
+    <input list="role" name="role" [(ngModel)]="formData().role" required>
+    <datalist id="role">
+      <option value="Nuclear Power Engineer"></option>
+      <option value="Project Manager"></option>
+      <option value="Office Assistant"></option>
+      <option value="Clinical Specialist"></option>
+      <option value="VP Marketing"></option>
+      <option value="Media Manager"></option>
+      <option value="Executive Secretary"></option>
+      <option value="Environmental Specialist"></option>
+    </datalist>
   </div>
 
   <button type="submit">Add Employee</button>

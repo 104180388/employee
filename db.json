@@ -1,46 +1,32 @@
 {
-    "employees": [
-        {
-            "id": "1",
-            "name": "Adan Whiteland",
-            "contact": "381-45-7612",
-            "email": "awhiteland0@stumbleupon.com",
-            "role": "Media Manager I"
-        },
-        {
-            "id": "2",
-            "name": "Pamelina Driver",
-            "contact": "781-62-8200",
-            "email": "pdriver1@berkeley.edu",
-            "role": "Executive Secretary"
-        },
-        {
-            "name": "Heidie Ferenczy",
-            "contact": "133-77-463",
-            "email": "hferenczy2@wufoo.com",
-            "role": "Nuclear Power Engineer",
-            "id": "3"
-        },
-        {
-            "id": 4,
-            "name": "Lucie Tilliards",
-            "contact": "705-63-5676",
-            "email": "ltilliards3@google.com.au",
-            "role": "Project Manager"
-        },
-        {
-            "id": 5,
-            "name": "Brigham Cornejo",
-            "contact": "671-14-1066",
-            "email": "bcornejo4@t.co",
-            "role": "Office Assistant II"
-        },
-        {
-            "id": 6,
-            "name": "Vivyanne Vasyutin",
-            "contact": "847-11-4349",
-            "email": "vvasyutin5@vk.com",
-            "role": "Developer II"
-        }
-    ]
+  "employees": [
+    {
+      "name": "Adan Whiteland",
+      "contact": "381457612",
+      "email": "awhiteland0@stumbleupon.com",
+      "role": "VP Marketing",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Pamelina Driver",
+      "contact": "781628200",
+      "email": "pdriver1@berkeley.edu",
+      "role": "Executive Secretary"
+    },
+    {
+      "name": "Heidie Ferenczy",
+      "contact": "13377463",
+      "email": "hferenczy2@wufoo.com",
+      "role": "Nuclear Power Engineer",
+      "id": "3"
+    },
+    {
+      "name": "Lucie Tilliards",
+      "contact": "705635676",
+      "email": "ltilliards3@google.com.a",
+      "role": "VP Marketing",
+      "id": "4"
+    }
+  ]
 }

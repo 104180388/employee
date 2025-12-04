@@ -19,10 +19,9 @@ interface Employee {
   styleUrl: './app.css'
 })
 export class App implements OnInit {
-  protected readonly title = signal('employees');
-  protected employees = signal<Employee[]>([]);
-  protected editingId = signal<number | null>(null);
-  protected formData = signal({
+  public employees = signal<Employee[]>([]);
+  public editingId = signal<number | null>(null);
+  public formData = signal({
     name: '',
     contact: '',
     email: '',
